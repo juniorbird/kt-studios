@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+.header {
+	left: 0;
+	top: 35px;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	background: black;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.banner {
+	height: 40px;
+	width: 100%;
+	background-color: #3b507f;
+	color: #fff;
+	font-weight: 600;
+	top: 0;
+	text-align: center;
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+@media (max-width: 460px) {
+	.banner {
+			font-size: .9em;
+	}
+}
+
+@media (min-width: 460px) {
+	.banner {
+		font-size: 1.1em;
+	}
+}
